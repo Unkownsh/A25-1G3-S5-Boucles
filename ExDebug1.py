@@ -48,3 +48,4 @@ if __name__ == "__main__":
     poussiere = input("entrez le niveau de poussiere:")
     humidite = float(input("entrez l'humidité: "))
     print(environnement_optimal(temp,poussiere,humidite))
+q
