@@ -43,4 +43,8 @@ def environnement_optimal(temp, poussiere, humidite):
 
 
 if __name__ == "__main__":
-    print(environnement_optimal(25, "faible", 40))
+    #print(environnement_optimal(25, "faible", 40))
+    temp = int(input("entrez la tempareture: "))
+    poussiere = input("entrez le niveau de poussiere:")
+    humidite = float(input("entrez l'humidité: "))
+    print(environnement_optimal(temp,poussiere,humidite))
