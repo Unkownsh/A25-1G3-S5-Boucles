@@ -48,10 +48,10 @@ if __name__ == "__main__":
     poussiere_liste = []
     humidite_liste = []
     #TODO : pour 3  ordinateur
-    numb_ordi =
+    #numb_ordi = 3
     #TODO :demander temp, poussiere, humidité
     #todo : mettres les 3 valeurs dans leurs liste
-    while numb_ordi == 3:
+    while True:
         temp = int(input("entrez la tempareture: "))
         poussiere = input("entrez le niveau de poussiere:")
         humidite = float(input("entrez l'humidité: "))
